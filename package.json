@@ -1,0 +1,31 @@
+{
+  "name": "expence-tracker-pro",
+  "version": "1.0.0",
+  "description": "learning",
+  "homepage": "https://github.com/rakeshraja192121121/Expenses-tracker#readme",
+  "bugs": {
+    "url": "https://github.com/rakeshraja192121121/Expenses-tracker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakeshraja192121121/Expenses-tracker.git"
+  },
+  "license": "ISC",
+  "author": "rakesh",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.2",
+    "nodemon": "^3.1.10",
+    "validator": "^13.15.15"
+  }
+}
