@@ -1,6 +1,6 @@
 const express = require("express");
 
-// import controlers here
+
 const register = require("./Controlers/register");
 const login = require("./Controlers/login");
 const userDashboard = require("./Controlers/userDashboard");
